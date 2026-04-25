@@ -1,5 +1,5 @@
 {% set name = "lance-namespace-urllib3-client" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lance_namespace_urllib3_client-{{ version }}.tar.gz
-  sha256: 31fbd058ce1ea0bf49045cdeaa756360ece0bc61e9e10276f41af6d217debe87
+  sha256: 853dcd7affb14fd6ae3039748d1fff4906d51ec41026e43f787ee56f339e18f6
 
 build:
   noarch: python
